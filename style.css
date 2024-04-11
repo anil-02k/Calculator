@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Inter", sans-serif;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.glass{
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.bglass{
+background: rgba(22, 130, 255, 0.28);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(22, 130, 255, 0.87);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.mainBox{
+    height: 550px;
+    width: 300px;
+    /* background-color: #34393f; */
+    border-radius: 30px;
+    overflow: hidden;
+    
+}
+
+.icon{
+    margin: 20px;
+    font-size: 20px;
+    opacity: 0.75;
+    transition: ease-in-out;
+}
+.icon:hover{
+    opacity: 1;
+}
+.answer{
+    height: 155px;
+    width:  280px;
+    /* background-color: red; */
+    margin: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+}
+.numbers{
+    height: 320px;
+    width: 280px;
+    /* background-color: orange; */
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+.box1{
+    /* background-color: rgb(24, 16, 16); */
+    height: 30px;
+    width: 265px;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: end;
+    opacity: 0.5;
+}
+.box2{
+    /* background-color: rgb(27, 29, 24); */
+    height: 50px;
+    width: 265px;
+    color: black;
+    border-radius: 10px;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: end;
+}
+
+.grid-item{
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  font-size: 25px;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+.grid-item:hover{
+    opacity: 1;
+    transition: ease-in-out;
+    transform: scale(10px);
+}
+
+.twos{
+    grid-column: 1/3;
+}
+
+.blueicon{
+    color: #16aeff;
+}
+
